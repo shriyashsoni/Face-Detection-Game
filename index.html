@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Detection Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Face Detection Game</h1>
+    <p>Laugh to earn points! Cover your face to lose points.</p>
+    <button id="enableVideo">Enable Video</button>
+    <video id="video" width="400" height="300" autoplay playsinline style="display:none;"></video>
+    <canvas id="canvas" width="400" height="300"></canvas>
+    <div id="scoreboard">
+        <p id="positiveScore">Positive Score: 0</p>
+        <p id="negativeScore">Negative Score: 0</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
+    <script src="script.js"></script>
+</body>
+</html>
