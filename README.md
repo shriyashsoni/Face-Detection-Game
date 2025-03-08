@@ -3,7 +3,7 @@
 # 🎭 Face Detection Game
 
 
-
+![Image](https://github.com/user-attachments/assets/7c4dfb4a-4075-4c07-8f4f-447095f23992)
 
 An **AI-powered interactive game** that detects facial expressions in real-time using **TensorFlow.js** and **BlazeFace**. The game is simple but fun – laugh to gain points and cover your face to lose points!
 
